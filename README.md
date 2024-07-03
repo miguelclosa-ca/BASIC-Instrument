@@ -1,5 +1,8 @@
 # Instrument, a BASIC music program written for the IBM PCjr
 
+![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/a8c6247c-99ec-4a7d-b388-939b81a386ae)
+
+![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/7d70b7b7-d8b7-4c4e-81ac-9d68b177f524)
 
 # Background
 * In the early hours of July 3rd, 2024, I thought about taking a break from the projects I currently have and instead sought to find out if I still remembered BASIC.
@@ -49,7 +52,7 @@ All we'll need to do now is move this into BASIC. Or so I thought.
 * Additionally, there also contained a table of all the frequencies the SOUND command used. Neat!
 ![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/6a9237c7-e32c-46a6-85f8-23a498d32158)
 
-2. The batteries in my PCjr's keyboard were died and leaked
+2. The batteries in my PCjr's keyboard were dead and leaked somewhat
 * When the time came to try the program out on physical hardware, I made the big mistake of leaving batteries in something that was not going to be used for quite some time, and discovered some very nasty batteries.
 * After a quick removal and wipe with alcohol, I thankfully observed no rust and continued on with adding new batteries
 * ***for the sake of preservation, I remembered to remove the batteries from the keyboard after my physical hardware test.***
@@ -128,14 +131,13 @@ Here is my IBM PCjr, paired with a bit of software. To ensure smooth sailing, I 
 
 ![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/d550f76c-fae8-4602-9e5c-fc8c78b82bac)
 
+After a few minutes of typing and fixing a simple Syntax Error, I was greeted with the program running perfectly on my system!
 
+https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/c847a854-e421-459f-bf60-97ec6573e10c
 
+# Key Takeaways - What lessions did I take from this?
 
-# Media
-
-### The program running on pcjs.org, an emulator for several IBM machines
-![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/a8c6247c-99ec-4a7d-b388-939b81a386ae)
-
-
-### The program running on my IBM PCjr
-![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/7d70b7b7-d8b7-4c4e-81ac-9d68b177f524)
+1. **Read documentation thoroughly**
+* There were not many resources online for this language, so I had to resort to old books and magazines to answer my questions
+2. **Proper Preservation is important!**
+* It's not fun being greeted with leaking batteries
