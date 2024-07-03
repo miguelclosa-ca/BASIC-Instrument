@@ -16,6 +16,10 @@ Okay, so this program seemed simple enough. All we'll need is to:
 3. For keys (1-8), play a sound through the monitor's speakers
 4. For key 9, exit the program
 
+And for this project, we'll just need:
+1. IBM PCjr (or emulator)
+2. Pen and paper
+
 # Design
 In my head, I thought that if I were to code this on Java, I would accomplish this by doing the following:
 ```java
