@@ -33,6 +33,11 @@ public static void main(String[] args){
         }
 }
 ```
+
+A bit of roughwork on paper I had a simple idea of what I needed to write:
+![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/eddf9786-96fd-4124-9d8c-60a6b463d157)
+
+
 All we'll need to do now is move this into BASIC. Or so I thought. 
 
 # Roadblocks
@@ -106,6 +111,23 @@ In this section:
 In this section:
 * This handles if 9 is pressed on the keyboard.
 * If so, clear the screen, and return the user back to BASIC.
+
+# Testing
+To avoid risking any unnecessary wear and tear on my computer, I opted to first code the program using PCEm, an emulator designed to emulate hardware spanning the Intel 8088 CPU to the Pentium II. 
+Originally, I wanted to use the row of keys from ASDFGHJKL (shown below), but that proved too difficult and instead I chose to use numbers since I could read the value with the VAL command.
+![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/abbe6c37-601c-4ba5-a73f-fcaa41b53bc9)
+
+Once I had the whole program written down, I retyped the code onto a .word document to print and headed to my basement to power on the IBM PCjr.
+
+# Testing (On Actual Hardware)
+![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/033f06fa-97d5-4a57-b8d8-002a79bbc0fc)
+![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/16482a8e-afa4-4518-a584-8f3c036dcce8)
+![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/e3b654ae-ac67-4729-80f8-3322624a8679)
+
+Here is my IBM PCjr, paired with a bit of software. To ensure smooth sailing, I tested my code on IBM's Cartridge BASIC.
+
+![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/d550f76c-fae8-4602-9e5c-fc8c78b82bac)
+
 
 
 
