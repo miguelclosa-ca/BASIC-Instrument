@@ -143,5 +143,7 @@ https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/c847a854-e421
 
 1. **Read documentation thoroughly**
 * There were not many resources online for this language, so I had to resort to old books and magazines to answer my questions
-2. **Proper Preservation is important!**
+2. **Experimentation is Good**
+* Despite finding commands which would be useful to this program, proper implementation would first involve my full understanding of the command's usage. 
+3. **Proper Preservation is important!**
 * It's not fun being greeted with leaking batteries
