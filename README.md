@@ -41,7 +41,7 @@ public static void main(String[] args){
 }
 ```
 
-A bit of roughwork on paper I had a simple idea of what I needed to write:
+After a bit of roughwork on paper I had a simple idea of what I needed to write:
 ![image](https://github.com/miguelclosa-ca/BASIC-Instrument/assets/60299649/eddf9786-96fd-4124-9d8c-60a6b463d157)
 
 
