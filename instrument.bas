@@ -1,11 +1,14 @@
-1 REM ìInitializeî
-2 KEY OFF:CLS
-3 SCREEN 1:COLOR 1
-10 LOCATE 23, 11:PRINTîC D E F G A B C QUITî;
-20 LOCATE 25, 11:PRINTî1 2 3 4 5 6 7 8  9î
-395 REM Check for keys 1-9
-400 N$=INKEY$: IF N$=îî THEN 400
-410 IF N$<î1î OR N$>î9î THEN 400
+1 REM !! Important !!
+2 REM This program will only work on versions of IBM BASIC.
+3 REM Clear screen, prepare program
+4 KEY OFF:CLS
+5 SCREEN 1:COLOR 1
+10 LOCATE 23, 11:PRINT‚ÄùC D E F G A B C QUIT‚Äù;
+20 LOCATE 25, 11:PRINT‚Äù1 2 3 4 5 6 7 8  9‚Äù
+395 REM Read keyboard buffer, check for inputs
+396 REM Only accept values 1-9
+400 N$=INKEY$: IF N$=‚Äù‚Äù THEN 400
+410 IF N$<‚Äù1‚Äù OR N$>‚Äù9‚Äù THEN 400
 420 ON VAL(N$) GOTO 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
 995 REM Handle all keys
 1000 SOUND 131, 5
@@ -24,8 +27,8 @@
 7001 GOTO 400
 8000 SOUND 262, 5
 8001 GOTO 400
-8995 REM If 9 is pressed, leave
+8995 REM If 9 is pressed, exit the program
 8999 CLS 
-9000 PRINT ìEnd of programî
+9000 PRINT ‚ÄúEnd of program‚Äù
 9001 SCREEN 0
 9005 END 
